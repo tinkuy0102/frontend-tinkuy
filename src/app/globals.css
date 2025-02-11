@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@layer base {
+    body {
+        @apply bg-black text-white font-['Inter'];
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-['Playfair_Display'];
+    }
+}
+
+.golden-gradient {
+    background: linear-gradient(180deg, rgba(203, 178, 106, 0.15) 0%, rgba(203, 178, 106, 0) 100%);
+}
+
+.golden-border {
+    border-color: #CBB26A;
+}
+.perspective-1000 {
+    perspective: 1000px;
+}
